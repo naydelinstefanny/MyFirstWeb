@@ -1,0 +1,137 @@
+body{
+    display: flex;
+    background-color: rgb(6, 6, 6);
+}
+div{
+    
+}
+#side1{
+    background-color: rgb(54, 57, 57);
+    height: 500px;
+    margin: 15px;
+    padding: 10px;
+    width: 20%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#side2{
+    background-color: rgb(54, 57, 57);
+    height: 500px;
+    margin: 15px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 15px;
+}
+#icono {
+background-color: rgb(21, 20, 20);
+height: 100px;
+width: 100px;
+border-radius: 10px;
+margin-top: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#nombre {
+    color: white;
+    font-family: sans-serif;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 30px;
+}
+#rol {
+   background-color: rgb(63, 60, 54); 
+   text-align: center;
+   width: 130px;
+   height: 25px;
+   color: aliceblue;
+   margin-top: 20px;
+   border-radius: 5px;
+}
+#Linea {
+    background-color: rgba(255, 255, 255, 0.279);
+    width: 200px;
+    height: .1px;
+margin-top: 25px;
+margin-bottom: 25px;  
+}
+#iconEmail {
+width: 30px;
+height: 30px;
+background-color: rgb(70, 78, 78);
+border-radius: 10px;
+border-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-right: 15px;
+box-sizing: content-box;
+}
+#email {
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+#EMAIL {
+    color: rgb(187, 178, 178);
+}
+#correo {
+    color: white;
+    font-size: 13px;
+}
+#SobreMi {
+    color: white;
+    font-size: 30px;
+}
+#Texto {
+    width: auto;
+    color: white;
+    font-size: 15px;
+    margin-right: 250px;
+    
+    font-size: 20px;
+}
+#Linea2 {
+    width: 50px;
+    height: 8px;
+    background-color: yellow;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#Subtitulo {
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top:20px ;
+    margin-bottom: 10px;
+}
+#caja {
+    height: 150px;
+    width: 400px;
+    background-color: rgb(27, 29, 29);
+    border-radius: 10px;
+
+}
+#tw {
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    padding-top: 40px;
+    margin-left: 20px;
+}
+#des {
+    font-size: 15px;
+    color: white;
+    margin: 20px;
+}
+#Contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 250px;
+}
